@@ -8,7 +8,8 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://jokw1228.itch.io/slay-the-circle',
     members: ['정영준'],
-    boothNo: 'A1'
+    boothNo: 'A1',
+    team: '챌린저'
   } as Game,
   {
     id: '2',
@@ -19,7 +20,8 @@ const gameList = [
     description: "각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://hena02.itch.io/soul-chess',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'A2'
+    boothNo: 'A2',
+    team: '루키'
   } as Game,
   {
     id: '3',
@@ -30,7 +32,8 @@ const gameList = [
     description: "각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://joyyoj1.itch.io/block-and-ball',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'A3'
+    boothNo: 'A3',
+    team: '루키'
   } as Game,
   {
     id: '4',
@@ -41,7 +44,8 @@ const gameList = [
     description: "MODULE:BERSERK",
     downloadUrl: 'https://bacon8282.itch.io/doubleboot',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'A4'
+    boothNo: 'A4',
+    team: '챌린저'
   } as Game,
   {
     id: '5',
@@ -52,7 +56,8 @@ const gameList = [
     description: "",
     downloadUrl: '',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'A5'
+    boothNo: 'A5',
+    team: '챌린저'
   } as Game,
   {
     id: '6',
@@ -63,7 +68,8 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://g-pos.itch.io/to-the-star',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'A6'
+    boothNo: 'A6',
+    team: '챌린저'
   } as Game,
   {
     id: '7',
@@ -74,7 +80,8 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://g-pos.itch.io/gear-defenders',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'A7'
+    boothNo: 'A7',
+    team: '챌린저'
   } as Game,
   {
     id: '8',
@@ -85,7 +92,8 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://g-pos.itch.io/fish-factory',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'A8'
+    boothNo: 'A8',
+    team: '챌린저'
   } as Game,
   {
     id: '9',
@@ -96,7 +104,8 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://fancycube.itch.io/catale',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'B1'
+    boothNo: 'B1',
+    team: '챌린저'
   } as Game,
   {
     id: '10',
@@ -107,7 +116,8 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://dasoya.itch.io/tetrhythm',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'B2'
+    boothNo: 'B2',
+    team: '챌린저'
   } as Game,
   {
     id: '11',
@@ -118,7 +128,8 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://pulleybun.itch.io/time-snatcher-handy-demo',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'B3'
+    boothNo: 'B3',
+    team: '챌린저'
   } as Game,
   {
     id: '12',
@@ -129,7 +140,8 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://9um4.itch.io/bonfire-adventure',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'B4'
+    boothNo: 'B4',
+    team: '챌린저'
   } as Game,
   {
     id: '13',
@@ -140,7 +152,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://joonsooan.itch.io/sunken-ruins',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'B5'
+    boothNo: 'B5',
+    team: '챌린저'
+
   } as Game,
   {
     id: '14',
@@ -151,7 +165,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://kevinkevinp.itch.io/moduleberserk',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'B6'
+    boothNo: 'B6',
+    team: '챌린저'
+
   } as Game,
   {
     id: '15',
@@ -162,7 +178,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://urbanoasisgame.itch.io/project-hellpunk',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'B7'
+    boothNo: 'B7',
+    team: '챌린저'
+
   } as Game,
   {
     id: '16',
@@ -173,7 +191,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://visitor101.itch.io/seoul-tower-hunters',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'B8'
+    boothNo: 'B8',
+    team: '챌린저'
+
   } as Game,
   {
     id: '17',
@@ -184,7 +204,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://tasel220.itch.io/happyfurryrestaurant',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'B9'
+    boothNo: 'B9',
+    team: '챌린저'
+
   } as Game,
   {
     id: '18',
@@ -195,7 +217,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://leeseoyoung-snu.itch.io/last-slice-labs',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'C1'
+    boothNo: 'C1',
+    team: '챌린저'
+
   } as Game,
   {
     id: '19',
@@ -206,7 +230,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://sedalharu.itch.io/starless',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'C2'
+    boothNo: 'C2',
+    team: '챌린저'
+
   } as Game,
   {
     id: '20',
@@ -217,7 +243,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://sson41541241.itch.io/graverobber',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'C3'
+    boothNo: 'C3',
+    team: '챌린저'
+
   } as Game,
   {
     id: '21',
@@ -228,7 +256,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://silverplating.itch.io/moonnight-underground',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'C4'
+    boothNo: 'C4',
+    team: '챌린저'
+
   } as Game,
   {
     id: '22',
@@ -239,7 +269,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://kwakgyu.itch.io/rabbit-in-d',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'C5'
+    boothNo: 'C5',
+    team: '챌린저'
+
   } as Game,
   {
     id: '23',
@@ -250,7 +282,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://centipedeman.itch.io/survival-8',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'C6'
+    boothNo: 'C6',
+    team: '챌린저'
+
   } as Game,
   {
     id: '24',
@@ -261,7 +295,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://cay8207.itch.io/iceisland',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'C7'
+    boothNo: 'C7',
+    team: '챌린저'
+
   } as Game,
   {
     id: '25',
@@ -272,7 +308,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://aayumin.itch.io/alchemy-battle',
     members: ['조강우', '이진웅', '강근호'],
-    boothNo: 'C8'
+    boothNo: 'C8',
+    team: '챌린저'
+
   } as Game,
   {
     id: '26',
@@ -283,7 +321,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://gunwoo0704.itch.io/project-null',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '배세강', '홍석희'],
-    boothNo: 'C9'
+    boothNo: 'C9',
+    team: '챌린저'
+
   } as Game,
   {
     id: '27',
@@ -294,7 +334,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://shin-minki.itch.io/hatzuka',
     members: ['조강우', '이진웅', '강근호', '박주영', '정성현', '김기용', '김진현', '박재용', '배세강', '홍석희'],
-    boothNo: 'D1'
+    boothNo: 'D1',
+    team: '챌린저'
+
   } as Game,
   {
     id: '28',
@@ -305,7 +347,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://solkim0210.itch.io/return',
     members: ['조강우', '이진웅'],
-    boothNo: 'D2'
+    boothNo: 'D2',
+    team: '챌린저'
+
   } as Game,
   {
     id: '29',
@@ -316,7 +360,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://musong-choi.itch.io/blunder',
     members: ['조강우', '이진웅'],
-    boothNo: 'D3'
+    boothNo: 'D3',
+    team: '챌린저'
+
   } as Game,
   {
     id: '30',
@@ -327,7 +373,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://aven0310.itch.io/ideares',
     members: ['조강우', '이진웅'],
-    boothNo: 'D4'
+    boothNo: 'D4',
+    team: '챌린저'
+
   } as Game,
   {
     id: '31',
@@ -338,7 +386,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://likeamovie.itch.io/chained-co',
     members: ['조강우', '이진웅'],
-    boothNo: 'D5'
+    boothNo: 'D5',
+    team: '챌린저'
+
   } as Game,
   {
     id: '32',
@@ -349,7 +399,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://maswang.itch.io/devilake',
     members: ['조강우', '이진웅'],
-    boothNo: 'D5'
+    boothNo: 'D5',
+    team: '챌린저'
+
   } as Game,
   {
     id: '33',
@@ -360,7 +412,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://garasani.itch.io/garasani',
     members: ['조강우', '이진웅'],
-    boothNo: 'D7'
+    boothNo: 'D7',
+    team: '챌린저'
+
   } as Game,
   {
     id: '34',
@@ -371,7 +425,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://endiez.itch.io/travel-around-the-world',
     members: ['조강우', '이진웅'],
-    boothNo: 'D8'
+    boothNo: 'D8',
+    team: '챌린저'
+
   } as Game,
   {
     id: '35',
@@ -382,7 +438,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://givememandu.itch.io/bunnyrun',
     members: ['조강우', '이진웅'],
-    boothNo: 'X1'
+    boothNo: 'X1',
+    team: '챌린저'
+
   } as Game,
   {
     id: '36',
@@ -393,7 +451,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://ji-soo-lee.itch.io/color-factory',
     members: ['조강우', '이진웅'],
-    boothNo: 'X2'
+    boothNo: 'X2',
+    team: '챌린저'
+
   } as Game,
   {
     id: '37',
@@ -404,7 +464,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://minarrii.itch.io/abraham-test',
     members: ['조강우', '이진웅'],
-    boothNo: 'X3'
+    boothNo: 'X3',
+    team: '챌린저'
+
   } as Game,
   {
     id: '38',
@@ -415,7 +477,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://gatojih.itch.io/biohunt',
     members: ['조강우', '이진웅'],
-    boothNo: 'X4'
+    boothNo: 'X4',
+    team: '챌린저'
+
   } as Game,
   {
     id: '39',
@@ -426,7 +490,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://sson41541241.itch.io/noarm',
     members: ['조강우', '이진웅'],
-    boothNo: 'Y1'
+    boothNo: 'Y1',
+    team: '챌린저'
+
   } as Game,
   {
     id: '40',
@@ -437,7 +503,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://nameofbutterfly.itch.io/nameofbutterfly',
     members: ['조강우', '이진웅'],
-    boothNo: 'Y2'
+    boothNo: 'Y2',
+    team: '챌린저'
+
   } as Game,
   {
     id: '41',
@@ -448,7 +516,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://mirdin11.itch.io/al-kamia',
     members: ['조강우', '이진웅'],
-    boothNo: 'Y3'
+    boothNo: 'Y3',
+    team: '챌린저'
+
   } as Game,
   {
     id: '42',
@@ -459,7 +529,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://odigostudio.itch.io/herma',
     members: ['조강우', '이진웅'],
-    boothNo: 'Y4'
+    boothNo: 'Y4',
+    team: '챌린저'
+
   } as Game,
   {
     id: '43',
@@ -470,7 +542,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://paulgh625.itch.io/lost-and-found',
     members: ['조강우', '이진웅'],
-    boothNo: 'Y5'
+    boothNo: 'Y5',
+    team: '챌린저'
+
   } as Game,
   {
     id: '44',
@@ -481,7 +555,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'http://me-lonbread.itch.io/hit-and-run',
     members: ['조강우', '이진웅'],
-    boothNo: 'Z1'
+    boothNo: 'Z1',
+    team: '챌린저'
+
   } as Game,
   {
     id: '45',
@@ -492,7 +568,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://wjh9330.itch.io/herorandomdefence',
     members: ['조강우', '이진웅'],
-    boothNo: 'Z2'
+    boothNo: 'Z2',
+    team: '챌린저'
+
   } as Game,
   {
     id: '46',
@@ -503,7 +581,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: '',
     members: ['조강우', '이진웅'],
-    boothNo: 'Z3'
+    boothNo: 'Z3',
+    team: '챌린저'
+
   } as Game,
   {
     id: '47',
@@ -514,7 +594,9 @@ const gameList = [
     description: "MODULE:BERSERK는 스팀펑크 세계 속 집사 로봇이 되어 섬기는 아가씨를 지키고 그녀의 가문에 벌어진 사건의 배후를 추적하는 게임입니다. 각종 의뢰를 수행하여 재화를 벌어 은신처를 발전시키고 동료들을 모아나가세요! 각 신체 부위마다 원하는 모듈을 장착하여 나만의 빌드를 완성해 전투로 나아가세요!",
     downloadUrl: 'https://moon15salt.itch.io/interactivemovie',
     members: ['조강우', '이진웅'],
-    boothNo: 'Z4'
+    boothNo: 'Z4',
+    team: '챌린저'
+
   } as Game,
   {
     id: '48',
@@ -525,10 +607,10 @@ const gameList = [
     description: "가문에 벌어진 사건의 배후를 추적하는 게임입니다. ",
     downloadUrl: 'https://emilyminkyounglee.itch.io/jangpoong',
     members: ['조강우', '이진웅'],
-    boothNo: 'Z5'
+    boothNo: 'Z5',
+    team: '챌린저'
   } as Game
 ]
-
 
 export default gameList;
 

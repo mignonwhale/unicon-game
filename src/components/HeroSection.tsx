@@ -35,7 +35,7 @@ export default function HeroSection() {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
             <Button
-                variant="outline"
+                variant="default"
                 size="lg"
                 className="border-3 border-gold bg-gold hover:bg-gold/90 text-navy px-12 py-6 text-xl font-bold shadow-2xl hover:shadow-gold/50 transition-all duration-300 transform hover:scale-110 uppercase tracking-wide"
                 onClick={() => navigate.push('/participants')}

@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-      <footer className="bg-navy text-white">
+      <footer className="bg-[#0f1129] border-t border-[#2d2e5f] py-8 text-white">
         <div className="container mx-auto px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* 로고 및 회사 정보 */}

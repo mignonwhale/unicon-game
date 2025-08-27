@@ -1,10 +1,17 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Header() {
-  const menu = ['홈', '행사개요', '전시회','참가업체', '문의']
+  const menu = [
+    {path: '/', screen: '홈'},
+    {path: '/', screen: '행사개요'},
+    {path: '/', screen: '전시회'},
+    {path: '/participants', screen: '참가업체'},
+    {path: '/', screen: '문의'}]
 
   return (
-      <header className="bg-navy shadow-lg sticky top-0 z-50">
+      <header className="bg-[#2d2e5f] border-b border-[#3d3e6f] shadow-lg sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           {/* 로고 */}
           <div className="flex items-center space-x-3">
@@ -22,9 +29,28 @@ export default function Header() {
 
           {/* 네비게이션 메뉴 */}
           <nav className="hidden md:flex space-x-8">
-            {menu.map((item, index) => (
-              <Link href="/" className="text-white hover:text-gold transition-colors duration-200 py-2 px-3 rounded-md hover:bg-purple/20" key={index}>{item}</Link>
-            ))}
+            {menu.map((item, index) => {
+                if(item.screen !== '홈' && item.screen !== '참가업체') {
+                  return (
+                    <button 
+                      key={index}
+                      onClick={() => alert('준비중입니다.')}
+                      className="text-white hover:text-gold cursor-pointer"
+                    >
+                      {item.screen}
+                    </button>
+                  );
+                }
+                return (
+                  <Link 
+                    key={index}
+                    href={item.path}
+                    className="text-white hover:text-gold"
+                  >
+                    {item.screen}
+                  </Link>
+                )
+            })}
           </nav>
         </div>
 

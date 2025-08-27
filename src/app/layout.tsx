@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className="bg-gradient-to-b from-navy/80 via-black/20 to-navy/90 text-white min-h-screen">
         <Header/>
-        <main className="bg-gradient-to-b from-navy/80 via-black/20 to-navy/90 py-20">
+        <main className="bg-gradient-to-b from-navy/80 via-black/20 to-navy/90">
           {children}
         </main>
         <Footer/>

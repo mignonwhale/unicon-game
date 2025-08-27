@@ -1,4 +1,4 @@
-import {Card, CardContent, CardTitle,} from "@/components/ui/card"
+import {Card, CardContent,} from "@/components/ui/card"
 import {Badge} from "@/components/ui/badge";
 
 interface GameCardProps {
@@ -7,60 +7,33 @@ interface GameCardProps {
 
 export function GameCard({data}: GameCardProps) {
   return (
-      <Card className="p-0 w-full max-w-sm dark">
-        <CardContent className="px-4">
-          {/* 게임 이미지 섹션 */}
-          <div className="relative overflow-hidden h-48 w-full">
-            <img
-                src={data?.image}
-                alt="Double Boot 게임 스크린샷"
-                className="w-full h-full object-cover"
-            />
-            {/* 플랫폼 태그 */}
-            <div className="absolute top-2 left-2 flex gap-1">
-              {data?.platform.map((item, index) => (
-                <span key={index} className="bg-blue-600 text-white text-xs px-2 py-1 rounded">
-                  {item}
-                </span>
-              ))}
-            </div>
+      <Card className="bg-[#2a2b4a] border-[#3d3e6f] overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300 group">
+        <div className="relative">
+          <div className="w-full h-48 bg-gradient-to-br from-blue-900 to-purple-900 flex items-center justify-center">
+            <img src={data?.image} alt={data?.title} className="w-full h-full object-cover" />
           </div>
-        </CardContent>
-        <CardContent className="p-0 flex flex-col h-full">
-          {/* 게임 정보 섹션 */}
-          <div className="p-4 text-white">
-            <div className="space-y-3">
-              {/* 게임 제목 */}
-              <h1 className="text-lg font-bold text-cyan-400">
-                {data?.title}
-              </h1>
-
-              {/* 장르 */}
-              <div className="flex w-full flex-wrap gap-2">
-                {data?.genre.slice(0, 3).map((item, index) => (
-                  <Badge 
-                    key={index}
-                    variant={
-                      index === 0 ? "default" : 
-                      index === 1 ? "secondary" : 
-                      "destructive"
-                    }
-                  >
-                    {item}
-                  </Badge>
-                ))}
-              </div>
-
-              {/* 게임 설명 */}
-              <p className="text-sm text-gray-400 leading-relaxed">
-                {data?.description}
-              </p>
-
-              {/* 다운로드 url */}
-              <div className="text-xs text-gray-500 mt-2">
-                {data?.downloadUrl}
-              </div>
-            </div>
+          <div className="absolute top-2 left-2 flex gap-1">
+            {data?.platform.map((item, index) => (
+              <Badge key={index} className="bg-blue-600 text-white text-xs">
+                {item}
+              </Badge>
+              ))}
+          </div>
+        </div>
+        <CardContent className="p-4">
+          {/* 하늘색 타이틀 부분 - 좌우 여백 동일하게 조정 */}
+          <div className="bg-cyan-500 text-white px-3 py-2 rounded-md mb-3 -mx-1">
+            <h3 className="font-medium text-sm leading-tight">{data?.title}</h3>
+          </div>
+          <p className="text-gray-300 text-xs leading-relaxed mb-3 line-clamp-4">
+            {data?.description}
+          </p>
+          <div className="flex items-center gap-1">
+            {data?.genre.slice(0, 3).map((item, index) => (
+              <Badge key={index} variant="outline" className="border-gray-600 text-gray-300 text-xs">
+                {item}
+              </Badge>
+            ))}
           </div>
         </CardContent>
       </Card>

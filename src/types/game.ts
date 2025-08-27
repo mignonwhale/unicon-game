@@ -8,4 +8,5 @@ interface Game {
   downloadUrl: string;
   members: string[];
   boothNo: string;
+  team:string;
 }
