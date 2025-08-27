@@ -29,7 +29,7 @@ export default function HeroSection() {
           </h2>
 
           <p className="text-xl md:text-2xl lg:text-3xl mb-12 max-w-3xl mx-auto leading-relaxed font-medium">
-            최첨단 게임 기술과 혁신적인 콘텐츠가 만나는 특별한 공간에서ㅜ
+            최첨단 게임 기술과 혁신적인 콘텐츠가 만나는 특별한 공간에서
             미래의 게임 산업을 미리 체험해보세요.
           </p>
 
