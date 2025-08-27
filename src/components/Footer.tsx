@@ -34,6 +34,14 @@ export default function Footer() {
               </div>
             </div>
           </div>
+          
+          {/* 저작권 표시 */}
+          <div className="mt-12 pt-8 border-t border-[#2d2e5f]">
+            <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+              <p>©MIGNONWHALE 2025. All rights reserved.</p>
+              <p className="mt-2 md:mt-0">Powered by Next.js & Tailwind CSS</p>
+            </div>
+          </div>
         </div>
       </footer>
   );
