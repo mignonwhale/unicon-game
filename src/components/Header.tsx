@@ -11,7 +11,7 @@ export default function Header() {
   const menu = [
     {path: '/', screen: '홈'},
     {path: '/overview', screen: '행사개요'},
-    {path: '/exibition', screen: '전시회'},
+    {path: '/exhibition', screen: '전시회'},
     {path: '/participants', screen: '참가업체'},
     {path: '/contact', screen: '문의'}]
 

@@ -40,7 +40,7 @@ export default function Contact() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="max-w-7xl mx-auto py-8 space-y-8"
+      className="max-w-7xl mx-auto px-4 py-8 space-y-8"
     >
       {/* 페이지 헤더 */}
       <div className="text-center py-8">
