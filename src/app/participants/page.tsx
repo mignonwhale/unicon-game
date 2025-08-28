@@ -100,7 +100,7 @@ export default function Participants() {
   const hasActiveFilters = selectedPlatforms.length > 0 || selectedGenres.length > 0 || selectedTeams.length > 0 || keyword.length > 0;
 
   return (
-      <div className="relative min-h-screen overflow-hidden py-20 flex flex-col">
+      <div className="min-h-screen overflow-hidden py-8 flex flex-col">
         {/* 필터 섹션 */}
         <section className="bg-[#242550] border-b border-[#3d3e6f] py-6">
           <div className="max-w-7xl mx-auto px-4">
